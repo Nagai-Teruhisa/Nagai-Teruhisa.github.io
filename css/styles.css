@@ -1,0 +1,114 @@
+body {
+  color:#333;
+  font-family: Verdana,sans-serif;
+  margin :0;
+}
+
+header {
+   background-color: #0654683b; 
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
+
+.container {
+  /* background-color: pink; */
+  width:400px;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  align-items: center;
+}
+
+.icon img{
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+}
+
+.info {
+  /* background-color: tomato; */
+  margin-left:32px;
+}
+
+.info h1{
+  font-weight: normal;
+  font-size: 24px;
+  margin:0px;
+}
+
+.info p{
+  margin:0;
+  margin-bottom: 16px;
+}
+
+.info ul{
+  margin:0px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.info ul li {
+ margin-right: 8px;  
+}
+
+.works{
+  width:800px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.works > h1 {
+  font-weight:normal;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+}
+
+.works > section {
+  margin-bottom: 60px;
+}
+
+.works h1 {
+  color:red;
+}
+
+.works > section > h1{
+  font-weight: normal;
+}
+
+.works li{
+  list-style-type: none;
+}
+
+.works p {
+  line-height: 1.8;
+}
+
+footer p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 60px;
+  color: grey;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  cursor: pointer; 
+  transition: 1.0s; 
+  margin-left: 100px;
+}
+
+.circle {
+  background: pink;
+  border-radius: 50%; 
+  transform: rotate(360deg); 
+}
+.notes a {
+  display: flex;
+} 
